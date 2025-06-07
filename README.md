@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+# 💸 SafeSpend – Your Personal Finance Tracker
 
-## Project info
+## 🔗 Live Site  
+[https://safespend.vercel.app](https://safespend.vercel.app)
 
-**URL**: https://lovable.dev/projects/9b27845f-93a5-4ae1-bb79-a6804d218622
+---
 
-## How can I edit this code?
+## 📘 Project Info
 
-There are several ways of editing your application.
+**SafeSpend** is a modern, intuitive personal finance tracker that helps you manage expenses, monitor budgets, and visualize spending patterns—all in one place. Designed for ease of use and built with performance in mind, SafeSpend ensures you stay in control of your finances.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9b27845f-93a5-4ae1-bb79-a6804d218622) and start prompting.
+## ✍️ How to Edit the Code
 
-Changes made via Lovable will be committed automatically to this repo.
+You can work on SafeSpend using any of the following methods:
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 💻 Work Locally (Using Your Own IDE)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+> _Ensure you have Node.js and npm installed. We recommend using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) to manage versions._
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+```bash
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Navigate into the project directory
+cd safespend
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
+## 🧱 Tech Stack
 
-**Edit a file directly in GitHub**
+### ⚙️ Core Technologies
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **React** – Component-based JavaScript library for building user interfaces.
+- **TypeScript** – A superset of JavaScript that provides static type checking.
+- **Vite** – A blazing-fast frontend build tool for modern web projects.
+- **Tailwind CSS** – Utility-first CSS framework for rapid UI development.
+- **shadcn/ui** – Beautiful and accessible UI components built using Radix and Tailwind CSS.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 📦 Build & Deployment
 
-## What technologies are used for this project?
+- **Vercel** – Deployment platform for frontend frameworks and static sites.
+- **npm** – Node package manager used to install and manage dependencies.
+- **ESLint** – Linting tool for identifying and fixing code issues.
+- **Prettier** – Code formatter to maintain consistent styling across the codebase.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 🧪 Optional Testing (If Integrated)
 
-## How can I deploy this project?
+- **Jest** – JavaScript testing framework.
+- **React Testing Library** – Tools to test React components in a user-centric way.
 
-Simply open [Lovable](https://lovable.dev/projects/9b27845f-93a5-4ae1-bb79-a6804d218622) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+> This stack ensures SafeSpend is fast, scalable, maintainable, and developer-friendly.
